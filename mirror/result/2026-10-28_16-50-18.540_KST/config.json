@@ -1,5 +1,4 @@
 {
-  "protocol": "mirror-light-all-moving-v3-flexible-layout-sensor-feedback-en-every-attempt-no-rule-disclosure-v4-correct-incorrect-100x5-p001-100-k2-T20",
   "model": "gpt-6.1-sol",
   "reasoning_effort": "medium",
   "k": 2,
@@ -10,7 +9,7 @@
   "first_problem": 1,
   "last_problem": 100,
   "model_input_language": "en",
-  "prompt_file": "prompt_en.txt",
+  "prompt_file": "prompt.json",
   "board_delivery": "every_attempt",
   "rule_existence_disclosed": false,
   "feedback": "per-sensor-color-correctness-and-overall-correct-incorrect-only",
@@ -40,11 +39,15 @@
     "splitter"
   ],
   "device_count_limit": null,
+  "provider": "openai",
+  "max_output_tokens": null,
+  "api_timeout_seconds": 0,
+  "protocol": "mirror-light-all-moving-v3-flexible-layout-sensor-feedback-en-every-attempt-no-rule-disclosure-v4-correct-incorrect-100x5-p001-100-k2-T20",
   "created_at": "2026-10-28T07:50:18.541Z",
   "dataset_id": "mirror-light-all-moving-v3-flexible-layout-100x5",
   "record_source": "saved_api_responses",
   "snapshot_role": "evaluation_and_report_generation",
-  "snapshot_created_at": "2026-10-29T09:01:05.051Z",
+  "snapshot_created_at": "2026-10-29T10:49:58.027Z",
   "selection": {
     "source_problem_count": 100,
     "first_problem": 1,
@@ -165,19 +168,11 @@
   "pricing_hash": "f6171e8a551aaca139f076e7f7f72650da13e97c0c0e44c5ee8be3a19bf6c1ad",
   "witness_file_sha256": "6cb99647bc89c8c1133e08b2d9a3a251dcaf8adbd61f66b11a0a522e42c8ccaf",
   "proof_file_sha256": "1bc8f5124dcd64abbf7ea7f2eefe511afb31d3978ee908a826a979b2a0b8e0cb",
-  "manifest_file_sha256": "5e52187e9fe1542082944913a3630043a63c1de19613cba30e89286cbed1e57c",
+  "manifest_file_sha256": "aa5c7746c17646b480d4b0303d5ea6a79c40e995ba5ae1fca64695eb4129fd0f",
   "code_hashes": {
-    "api.py": "92e8b249c3c9d7166446d1ee1ff52f4543d90705f4ab30e4e06e6a2246c8432d",
-    "cost.py": "d2b97b5f8ba84069779ded1f617ef123149a0b03ca3251de81c9b408bebc4983",
-    "pricing.json": "2082b4ab8ecc201c7edffbf55c2c79134e178823460d2cb5d51b6e1243c7cc26",
-    "protocol.py": "46fb376b42ac146130c12dea2c3ac11b0bb57a9b12530488f98e23ae548acf5b",
-    "optics.py": "2499251592c2652823c5f7490d0e2f4cd0db22925727d488bbb8900446baad33",
-    "proof_checker.py": "10d8e146e50ac723d01f7491f6af1525839cc0bca94e79ed6cf149c9f7eedd8a",
-    "dataset_validation.py": "007f86cfed47b058a6dd79ab845950ed19cd613b7c6da67b7748ab5df17d9165",
-    "experiment.py": "3b7d9116da10e069070293ae21b35035a6f7297b2de4c6a58cedbf2d9f651e40",
-    "runner.py": "f701dab2cabf504de9a7afe5c97f204ee67f592eee9c1f49dd2518cad5a0dc67",
-    "storage.py": "7b89d1c73f0faf0ea7e0a032376fb68e2defaf792a50cac1dce92964a94f5bf7",
-    "start_gpt_with_key.py": "aa670b185be6621d3729d45eee66e18d60e0e995e4c683a8d5f3273dfd94e9b0",
-    "serialization.py": "4d22b2fac14fc1e941c9dbe908cbce6f66fc44f0975d62689210a98b2eb821d9"
+    "run_experiment.py": "1755268cf52ae08faf2716c3da03043ba37a482195cc7c00c60e7b00ad5d37e6",
+    "judge.py": "b6db513ddba0581a9c56e552461bee8558836c9dce85ff1a3f7d072a07a92165",
+    "dataset.py": "98f4bac4d3c72b4be11912960012d41b957badcce97c1aa220e2e19bb880982a",
+    "results.py": "b01ce8f6b7a82173505085dbe56f228ab6308a56596e01fc3d8018d48df68470"
   }
 }
